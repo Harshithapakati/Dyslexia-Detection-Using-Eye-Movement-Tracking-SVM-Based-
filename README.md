@@ -24,12 +24,12 @@ We extract several features per subject from the fixation data:
 
 ## SVM Classification Pipeline
 
-### 🧪 80-20 Train-Test Split
+###  80-20 Train-Test Split
 - Split is based on subject IDs (not rows of data)
 - Training: 80% of subjects
 - Testing: 20% of subjects
 
-### 🧠 Model
+###  Model
 - **Algorithm:** Support Vector Machine (SVM)
 - **Kernel:** Radial Basis Function (RBF)
 - **Validation:** Manual 80-20 split with ground truth labels only available for training subjects
@@ -38,7 +38,7 @@ We extract several features per subject from the fixation data:
 
 ## Performance Metrics
 
-### 📊 Classification Report (Test Set)
+###  Classification Report (Test Set)
 
 | Class         | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
@@ -50,7 +50,7 @@ We extract several features per subject from the fixation data:
 - **Macro F1 Score:** 0.80
 - **Weighted F1 Score:** 0.80
 
-### ✅ Overfitting Check
+###  Overfitting Check
 - The training and testing accuracy are close, indicating **no major overfitting**.
 
 ---
